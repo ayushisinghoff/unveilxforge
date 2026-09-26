@@ -1,0 +1,52 @@
+{
+    "ocr_fields": {
+        "name": "ARJUN KUMAR",
+        "passport_number": "AUR123456",
+        "nationality": "AUR",
+        "date_of_birth": "15 MAR 1998",
+        "expiry_date": "09 JAN 2033",
+        "sex": "M"
+    },
+    "mrz_fields": {
+        "valid": true,
+        "document_type": "P",
+        "issuing_country": "AUR",
+        "surname": "KUMAR",
+        "given_names": "ARJUN",
+        "passport_number": "AUR123456",
+        "nationality": "AUR",
+        "date_of_birth": "1998-03-15",
+        "sex": "M",
+        "date_of_expiry": "2033-01-09",
+        "raw_mrz": [
+            "P<AURKUMAR<<ARJUN<<<<<<<<<<<<<<<<",
+            "AUR1234567AUR9803155M3301098<<<<<<<06"
+        ],
+        "passport_number_checksum": false
+    },
+    "verification": {
+        "passport_number": {
+            "match": true,
+            "status": "MATCH"
+        },
+        "date_of_birth": {
+            "match": true,
+            "status": "MATCH"
+        },
+        "sex": {
+            "match": true,
+            "status": "MATCH"
+        },
+        "nationality": {
+            "match": true,
+            "status": "MATCH"
+        },
+        "passport_number_checksum": {
+            "match": false,
+            "status": "MISMATCH"
+        }
+    },
+    "expiry": {
+        "status": "VALID"
+    }
+}
